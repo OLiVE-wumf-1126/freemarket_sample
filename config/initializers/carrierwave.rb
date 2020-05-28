@@ -14,7 +14,7 @@ CarrierWave.configure do |config|
       aws_secret_access_key: ENV['AWS_SECRET_ACCESS_KEY'],
       region: 'ap-northeast-1'
     }
-    config.fog_directory  = 'furima-74g'
-    config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/furima-74g'
+    config.fog_directory  = 'furima74g'
+    config.asset_host = 'https://s3-ap-northeast-1.amazonaws.com/furima74g'
   end
 end
