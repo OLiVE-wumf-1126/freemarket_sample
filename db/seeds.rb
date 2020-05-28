@@ -348,10 +348,10 @@ others_9.children.create([{name: "すべて"}])
 #        )
   # end
   
-  Image.create!(
-    image: File.open('./app/assets/images/profile.png'),
-    item_id: 1
-    ) 
+  # Image.create!(
+  #   image: File.open('./app/assets/images/profile.png'),
+  #   item_id: 1
+  #   ) 
   # Item.create!(
   #   name: "iphone12",
   #     description: "iPhone 11 Pro ミッドナイトグリーン 64 GB SIMフリー
